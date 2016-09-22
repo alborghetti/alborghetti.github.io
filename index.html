@@ -1,9 +1,369 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Francesco</title>
+
+    <!-- CSS  -->
+    <link href="https://cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/animate.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
 
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="navbar-fixed">
+        <nav class="blue lighten-1" role="navigation">
+            <div class="nav-wrapper container">
+                <ul class="left hide-on-med-and-down">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#contacts">CONTACTS</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#experience">EXPERIENCE</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#contacts">CONTACTS</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax"><img src="images/parallax.png"></div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="section withe scrollspy" id="about">
+        <div class="container">
+
+            <div class="row ">
+                <div class="section-title">
+                    <h2>Francesco Alborghetti</h2>
+                </div>
+            </div>
+            <div class="col s12">
+                <div class="card-panel z-depth-1">
+                    <div class="row">
+                        <div class="center-align card-image">
+                            <img class="responsive-img circle" width=200 src="images/francesco2.jpg ">
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <h6 class="center-align "><i>Simplicity is the ultimate sophistication</i></h6>
+                    </div>
+                    <br>
+                    <div class="row ">
+                        <div class="col s10 offset-s1 ">
+                            <h6>SAP DATAMANAGEMENT CONSULTANT</h6>
+                            <p style=" text-align: justify ">SAP Consultant with 15 years of experience in development, implementation and migration of SAP business applications. He started with custom developments and standard enhancements, then, after a period as application consultant
+                                in the SD area, he moved to SAP SLO (System Landscape Optimization) delivery hub. He is now focusing on complex customer specific SAP ERP migration projects acting as solution architect and technical leader. He is currently
+                                employed by DataVard in the role of Solution Architect for SAP Data Management, he is also responsible for design, implementation and testing of different products in Data Management area (Analysis tools for ERP system
+                                optimization, SAP data archiving solution).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="section scrollspy blue lighten-5" id="skills">
+        <div class="container ">
+
+            <div class="row ">
+                <div class="section-title ">
+                    <h2><i class="mdi mdi-math-compass "></i>Skills</h2>
+                </div>
+            </div>
+            <div class="col s12 white">
+                <!--<div class="card-panel z-depth-1 grey lighten-3 ">-->
+                <ul class="collapsible" data-collapsible="expandable">
+                    <li>
+                        <div class="collapsible-header"><i class="mdi mdi-chevron-right collapsible-more"></i><i class="mdi mdi-chevron-down collapsible-less" style="display: none"></i>Applications</div>
+                        <div class="collapsible-body">
+                            <div class="row">
+                                <br>
+                                <div class="col s10 offset-s1">
+                                    <h6 class="col col m10 offset-m1 ">SAP Data management - SLO</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate " style="width: 100% "></div>
+                                    </div>
+                                    <h6 class="col col m10 offset-m1 ">SAP ERP Logistic Modules</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate blue " style="width: 75% "></div>
+                                    </div>
+                                    <h6 class="col col m10 offset-m1 ">SAP ERP Finance Modules</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate blue " style="width: 75% "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="mdi mdi-chevron-right collapsible-more"></i><i class="mdi mdi-chevron-down collapsible-less" style="display: none"></i>Technology</div>
+                        <div class="collapsible-body">
+                            <div class="row">
+                                <br>
+                                <div class="col s10 offset-s1">
+                                    <h6 class="col col m10 offset-m1 ">SAP Netweaver</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate blue " style="width: 75% "></div>
+                                    </div>
+                                    <h6 class="col col m10 offset-m1 ">SAP HANA</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate blue " style="width: 75% "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="mdi mdi-chevron-right collapsible-more"></i><i class="mdi mdi-chevron-down collapsible-less" style="display: none"></i></i>UX</div>
+                        <div class="collapsible-body">
+                            <div class="row">
+                                <br>
+                                <div class="col s10 offset-s1">
+                                    <h6 class="col col m10 offset-m1 ">SAPUI5</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate green " style="width: 100% "></div>
+                                    </div>
+                                    <h6 class="col col m10 offset-m1 ">Fiori implementation</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate blue " style="width: 75% "></div>
+                                    </div>
+                                    <h6 class="col col m10 offset-m1 ">Other JS frameworks (AngularJS, Bootstrap, Material Design)</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate blue " style="width: 75% "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header"><i class="mdi mdi-chevron-right collapsible-more"></i><i class="mdi mdi-chevron-down collapsible-less" style="display: none"></i>Development skills</div>
+                        <div class="collapsible-body">
+                            <div class="row">
+                                <br>
+                                <div class="col s10 offset-s1">
+                                    <h6 class="col col m10 offset-m1 ">ABAP</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate green " style="width: 100% "></div>
+                                    </div>
+                                    <h6 class="col col m10 offset-m1 ">Javascript</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate green " style="width: 100% "></div>
+                                    </div>
+                                    <h6 class="col col m10 offset-m1 ">HTML CSS3</h6>
+                                    <div class="progress col m10 offset-m1 ">
+                                        <div class="determinate blue " style="width: 75% "></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- EXPERIENCE -->
+    <div class="section scrollspy white" id="experience">
+        <div class="container ">
+
+            <div class="row ">
+                <div class="section-title ">
+                    <h2><i class="mdi mdi-briefcase "></i>Work Experience</h2>
+                </div>
+                <div id="timeline" class="timeline">
+                    <div class="timeline-event">
+                        <div class="card timeline-content">
+                            <div class="card-content">
+                                <span class="card-title grey-text text-darken-4 ">SAP Solution Architect <a href="http://www.datavard.com ">@DataVard</a></span>
+                                <p class="blue-text ">July 2014</p>
+                                <p style="text-align: justify ">Solution Architect with product development responsability</p>
+                            </div>
+                        </div>
+                        <div class="timeline-badge blue white-text "><i></i></div>
+                    </div>
+                    <div class="timeline-event ">
+                        <div class="card timeline-content">
+                            <div class="card-content">
+                                <span class="card-title grey-text text-darken-4 ">SAP Principal Consultant <a href="http://www.sap.com ">@SAP</a></span>
+                                <p class="blue-text ">April 2007 - June 2014</p>
+                                <p style="text-align: justify ">Principal consultant for SLO services</p>
+                            </div>
+                        </div>
+                        <div class="timeline-badge blue white-text "><i></i></div>
+                    </div>
+                    <div class="timeline-event ">
+                        <div class="card timeline-content">
+                            <div class="card-content">
+                                <span class="card-title grey-text text-darken-4 ">SAP Consultant <a href="http://www.eptarefrigeration.com ">@EPTA</a></span>
+                                <p class="blue-text ">August 2006 - March 2007</p>
+                                <p style="text-align: justify ">SAP Consultant for SD and CS module</p>
+                            </div>
+                        </div>
+                        <div class="timeline-badge blue white-text"><i></i></div>
+                    </div>
+                    <div class="timeline-event">
+                        <div class="card timeline-content">
+                            <div class="card-content">
+                                <span class="card-title grey-text text-darken-4 ">ABAP Developer <a href="http://www.interlem.it ">@Interlem</a></span>
+                                <p class="blue-text">March 2002 - July 2006</p>
+                                <p style="text-align: justify ">ABAP developer for SD and MM module</p>
+                            </div>
+                        </div>
+                        <div class="timeline-badge blue white-text "><i></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="section scrollspy blue lighten-5" id="education">
+        <div class="container">
+            <div class="row ">
+                <div class="section-title ">
+                    <h2><i class="mdi mdi-certificate "></i>Education</h2>
+                </div>
+            </div>
+            <div class="col s12">
+                <!--<div class="card-panel z-depth-1 grey lighten-3 ">-->
+                <div class="row">
+                    <div class="col s10 offset-s1 ">
+                        <ul class="collection with-header z-depth-1">
+                            <li class="collection-header ">
+                                <h5>SAP Certifications</h5>
+                            </li>
+                            <li class="collection-item avatar ">
+                                <div>
+                                    <img src="images/sap.png " alt=" " class="circle ">
+                                    <span class="title "><i class="blue-text">March 2014</i><p>SAP HANA Certified Technology Associate</p></span>
+                                </div>
+                            </li>
+                            <li class="collection-item avatar ">
+                                <img src="images/sap.png " alt=" " class="circle ">
+                                <span class="title "><i class="blue-text">July 2013</i><p>SAP HANA Certified Application Professional</p></span>
+                            </li>
+                            <li class="collection-header ">
+                                <h5>OpenSAP</h5>
+                            </li>
+                            <li class="collection-item avatar ">
+                                <img src="images/openSAP.png " alt=" " class="circle">
+                                <span class="title "><i class="blue-text">May 2016</i><p>Build Your Own SAP Fiori App in the Cloud</p></span>
+                            </li>
+                            <li class="collection-item avatar ">
+                                <img src="images/openSAP.png " alt=" " class="circle ">
+                                <span class="title "><i class="blue-text">November 2014</i><p>ABAP Development for SAP HANA</p></span>
+                            </li>
+                            <li class="collection-item avatar ">
+                                <img src="images/openSAP.png " alt=" " class="circle ">
+                                <span class="title "><i class="blue-text">December 2013</i><p>Introduction to Software Development on SAP HANA</p></span>
+                            </li>
+                            <li class="collection-header ">
+                                <h5>Università degli Studi di Milano</h5>
+                            </li>
+                            <li class="collection-item avatar ">
+                                <img src="images/unimi.png " alt=" " class="circle ">
+                                <span class="title "><i class="blue-text">November 2000</i><p>Master Degree in Philosophy</p></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--</div>-->
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACTS -->
+    <div class="section withe scrollspy" id="contacts">
+        <div class="container">
+            <div class="row ">
+                <div class="section-title">
+                    <h2><i class="mdi mdi-message"></i>Contacts</h2>
+                </div>
+            </div>
+            <div class="col s12 ">
+                <div class="card-panel z-depth-1">
+                    <div class="row">
+                        <form id="contactForm" class="col s12" data-toggle="validator" role="form" data-disable="false">
+                            <div class="row">
+                                <h5 id="msgSubmit" class="center-align hide"></h5>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="name" type="text" class="validate" required>
+                                    <label for="name">Name</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="email" type="email" class="validate" required>
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s10 offset-s1">
+                                    <input id="subject" type="text" class="validate" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="row">
+                                    <div class="input-field col s10 offset-s1">
+                                        <textarea id="textarea" class="materialize-textarea"></textarea>
+                                        <label for="textarea">Your message</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="center-align col s12">
+                                    <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Send<i class="material-icons right">send</i></button>
+                                </div>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer blue darken-1 ">
+        <div class="container ">
+            <div class="row ">
+                <div class="center-align">
+                    <a href="https://it.linkedin.com/in/francescoalborghetti"><i class="small white-text mdi mdi-linkedin col s3 center-align"></i></a>
+                    <a href="https://github.com/alborghetti"><i class="small white-text mdi mdi-github-box col s3 "></i></a>
+                    <a href="https://jsfiddle.net/user/falborgh/fiddles/"><i class="small white-text mdi mdi-jsfiddle col s3 center-align"></i></a>
+                    <a href="mailto://f@lborgh.com"><i class="small white-text mdi mdi-email col s3 center-align"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.5/validator.min.js"></script>
+    <script src="js/materialize.js "></script>
+    <script src="js/init.js "></script>
+
 </body>
 
 </html>
