@@ -420,42 +420,22 @@
             <div class="col s12 ">
                 <div class="card-panel z-depth-1">
                     <div class="row">
-                        <form id="contactForm" class="col s12" data-toggle="validator" role="form" data-disable="false">
-                            <div class="row">
-                                <h5 id="msgSubmit" class="center-align hide"></h5>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s6">
-                                    <input id="name" type="text" class="validate" required>
-                                    <label for="name">Name</label>
-                                </div>
-                                <div class="input-field col s6">
-                                    <input id="email" type="email" class="validate" required>
-                                    <label for="email">Email</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s10 offset-s1">
-                                    <input id="subject" type="text" class="validate" required>
-                                    <label for="subject">Subject</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="row">
-                                    <div class="input-field col s10 offset-s1">
-                                        <textarea id="textarea" class="materialize-textarea"></textarea>
-                                        <label for="textarea">Your message</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="center-align col s12">
-                                    <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Send
-                                        <i class="material-icons right">send</i>
-                                    </button>
-                                </div>
-                                <div class="help-block with-errors"></div>
-                            </div>
+                        <form
+                          action="https://formspree.io/f/xnqonlbr"
+                          method="POST"
+                        >
+                          <label>
+                            Your email:
+                            <input type="text" name="_replyto">
+                          </label>
+                          <label>
+                            Your message:
+                            <textarea name="message"></textarea>
+                          </label>
+
+                          <!-- your other form fields go here -->
+
+                          <button type="submit">Send</button>
                         </form>
                     </div>
 
